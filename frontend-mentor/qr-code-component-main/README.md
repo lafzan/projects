@@ -24,11 +24,6 @@ This was my first challange. The design includes an img and two paragraph of tex
 This is the screenshot of my design.
 ![](./screenshot.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ## My process
 
 Even if it was a simple html and css code, I tried to be organized and clean with my general organization. I created different folders for images and css stylesheet file. When I write html, I tried to use semantic html markup and I used utility classes on css design. I didn't use rem or em instead I used px for size and no media query was used bcs the design is not responsive.
