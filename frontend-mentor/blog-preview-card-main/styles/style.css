@@ -132,3 +132,8 @@ img {
   position: absolute;
   bottom: 0;
 }
+@media screen (max-height:32rem) {
+  .attribution{
+    display:none;
+  }
+}
