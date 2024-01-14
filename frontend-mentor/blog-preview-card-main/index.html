@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="card bg-color--card border-radius card-height card-width">
+        <img
+          src="assets/images/illustration-article.svg"
+          alt="some image"
+          class="cool-image border-radius"
+        />
+        <div class="nabimben">
+          <div class="status bg-color--primary inline fw--800 border-radius">
+            Learning
+          </div>
+          <div></div>
+        </div>
+        <p class="date">
+          Published <time datetime="2023-12-21">21 Dec 2023</time>
+        </p>
+        <a class="card-link fw--800 fs-heading text-color--heading" href="#"
+          >HTML & CSS foundations</a
+        >
+
+        <p class="card-explanation text-color--text">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="author-info">
+          <img
+            class="author-image"
+            src="assets/images/image-avatar.webp"
+            alt="author image"
+          />
+          <p class="author-name text-color--heading">Greg Hooper</p>
+        </div>
+      </article>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Batuta</a>.
+    </footer>
+  </body>
+</html>

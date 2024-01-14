@@ -1,0 +1,134 @@
+:root {
+  /* COLOR */
+
+  --color-primary: hsl(47, 88%, 63%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-grey: hsl(0, 0%, 50%);
+  --color-neutral-black: hsl(0, 0%, 7%);
+
+  /* FONT */
+
+  --ff-primary: "Figtree", sans-serif;
+
+  --fs-text: 1rem;
+  --fs-heading: 1.5rem;
+  --fw-600: 600;
+  --fw-800: 800;
+
+  /* CARD */
+
+  --card-height: 30rem;
+  --card-width: 20rem;
+  --card-padding: 1.1rem;
+  /* CARD IMAGE */
+}
+
+/* UTILITY CLASSES */
+
+/*BACKGROUND COLOR */
+
+.bg-color--primary {
+  background-color: var(--color-primary);
+}
+.bg-color--card {
+  background-color: var(--color-neutral-white);
+}
+
+/*TEXT COlOR */
+
+.text-color--heading {
+  color: var(--color-neutral-black);
+}
+
+.text-color--text {
+  color: var(--color-neutral-grey);
+}
+
+/*TEXT FONT WEIDTH */
+
+.fw--600 {
+  font-weight: var(--fw-600);
+}
+.fw--800 {
+  font-weight: var(--fw-800);
+}
+
+/* FONT SIZE*/
+
+.fs--text {
+  font-size: var(--fs-text);
+}
+.fs-heading {
+  font-size: var(--fs-heading);
+}
+
+/*SHAPE RELATED  */
+
+.border-radius {
+  border-radius: 20px;
+}
+.card-height {
+  height: var(--card-height);
+}
+.card-width {
+  width: var(--card-width);
+}
+
+.inline {
+  display: inline;
+}
+/* GENERAL STYLING*/
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+  font-family: var(--ff-primary);
+  font-size: 16px;
+
+  height: 100vh;
+  height: 100svh;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--card-padding);
+  box-shadow: 10px 10px 5px var(--color-neutral-black);
+}
+
+img {
+  display: block;
+}
+.status {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+.card-link {
+  text-decoration: none;
+}
+.card-link:hover {
+  color: var(--color-primary);
+}
+.author-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
