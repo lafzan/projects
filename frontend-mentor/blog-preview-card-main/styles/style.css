@@ -132,7 +132,7 @@ img {
   position: absolute;
   bottom: 0;
 }
-@media screen (max-height:32rem) {
+@media screen (max-height: calc(32rem -1px)) {
   .attribution{
     display:none;
   }
