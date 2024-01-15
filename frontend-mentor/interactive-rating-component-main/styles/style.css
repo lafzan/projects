@@ -40,7 +40,9 @@
 }
 
 /* GENERAL STYLING */
-
+* {
+  caret-color: transparent;
+}
 html {
   box-sizing: border-box;
   margin: 0px;
