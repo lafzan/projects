@@ -50,7 +50,7 @@ submitbtn.addEventListener("click", () => {
       console.log(i + 1);
 
       choiceText.textContent = i + 1;
+      frontCard.classList.add("vanish");
     }
   }
-  frontCard.classList.add("vanish");
 });
