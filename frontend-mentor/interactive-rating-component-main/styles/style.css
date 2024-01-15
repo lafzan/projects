@@ -108,7 +108,7 @@ img {
   text-align: center;
 }
 .star {
-  padding: 1rem 0.9rem 0.7rem 1rem;
+  padding: 1rem;
   border-radius: 1000px;
   display: inline-block;
   background-color: var(--clr-dark-blue);
